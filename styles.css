@@ -1,0 +1,129 @@
+
+* {padding: 0; margin: 0; }
+body {
+  font-family: 'Titillium Web', sans-serif; text-align: center;
+  ;
+}
+
+h1 {
+  color: white;   margin: 0;
+  padding: 20px; font-family: 'Fira Sans', sans-serif; text-align: center;
+
+}
+
+h2 {
+  font-size: 50px;
+    color: darkcyan; 
+     
+    letter-spacing: 1px; 
+    text-shadow: 1.5px 1.5px #000000;
+
+}
+
+h3 {font-size:40px; text-align: left}
+nav ul {
+    background-color: blue;
+}
+
+nav ul li {
+    list-style-type: none; display: inline; margin-right: 10px;
+    margin-left: 10px; text-align: center;
+}
+
+nav ul {
+  background-color: white;
+  border-style: solid;
+  border-color: darkcyan;
+  border-width: 2px;
+  padding: 10px;
+mix-blend-mode:  ;
+  
+}
+h5 {font-size:25px;
+    text-align: center;
+
+}
+
+p {font-size:25px;
+    text-align: justify;
+
+}
+nav ul li a {
+    text-decoration: none; color: darkcyan; text
+}
+img {
+  border-radius: 10px;
+}
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://p0.pikist.com/photos/506/1017/tower-dark-silhouette-air-utrecht-dom-tower-evening.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+main {text-align: left; margin: 20px}
+
+#dt  {
+float: left;    
+ margin: 0 10 0 15px; border-radius: 5px;
+}
+
+#ad  {
+float: right;    
+ margin: 0 10 0 15px; border-radius: 5px;
+}
+.adapt {margin: 20px; font-family: 'Titillium Web', sans-serif; font-size: 25px }
+
+.nave {
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+
+
+
+
+
+
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 1px HoneyDew;
+  border-collapse: collapse;
+    border-color: darkcyan;
+    border-style: solid;
+}
+tr {
+  background-color: transparent;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: black;
+}
+td {
+  color: black;
+}
+/********************************/
